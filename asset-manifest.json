@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/blender-app/static/css/main.d68dd6f3.css",
+    "main.js": "/blender-app/static/js/main.5bab591c.js",
+    "index.html": "/blender-app/index.html",
+    "main.d68dd6f3.css.map": "/blender-app/static/css/main.d68dd6f3.css.map",
+    "main.5bab591c.js.map": "/blender-app/static/js/main.5bab591c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d68dd6f3.css",
+    "static/js/main.5bab591c.js"
+  ]
+}
