@@ -1,13 +1,54 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Monoton&family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  border: none;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root{
+  --primary: #efb6b2;
+  --secondary: #4e4e4e;
+  --error: #ff4a4a;
+  --white: white;
+
+  --transition: all 400ms ease;
+
+  --width-lg:80%;
+  --width-md:90%;
+  --width-sm:95%;
+
 }
+
+body{
+  font-family: 'Bruno Ace SC';
+  color: var(--secondary);
+
+}
+
+.App{
+  width: var(--width-lg);
+  margin: 0 auto;
+}
+
+h1{
+  color: var(--primary);
+  letter-spacing: 2px;
+
+}
+
+h2 ,p{
+  text-align: center;
+}
+h2{
+  margin-top: 60px;
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+
+
+
