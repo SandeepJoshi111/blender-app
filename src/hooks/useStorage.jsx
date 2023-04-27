@@ -13,7 +13,7 @@ const useStorage = (file) => {
         const collectionRef = projectFirestore.collection('images');
 
         //putting upload on a percentage
-        storageRef.put(file).on('state_changed',(snap)=>{
+        storageRef.put(file).on('state_changed',(snap) =>{
             let percentage = (snap.bytesTransferred / snap.totalBytes) *100;
             setProgress(percentage);
         },(err)=>{
